@@ -6,7 +6,7 @@ services:
     volumes:
       - fbdata:/data/volumes/fbdata
     ports:
-      - 9989:8000
+      - 80:8000
     environment:
       - VIRTUAL_HOST=focalboard.local
       - VIRTUAL_PORT=8000
