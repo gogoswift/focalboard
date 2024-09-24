@@ -4,7 +4,7 @@ services:
     image: mattermost/focalboard
     container_name: focalboard
     volumes:
-      - fbdata:/opt/focalboard/data
+      - fbdata:/data/volumes/fbdata
     ports:
       - 9989:8000
     environment:
